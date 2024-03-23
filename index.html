@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Trip | Agência de viagens</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Good Trip</h1>
+                <img src="https://static.vecteezy.com/system/resources/previews/009/663/180/non_2x/plane-icon-black-transparent-free-png.png"/>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-center" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#passagem">Passagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hospedagem">Hospedagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pacote">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button id="btn-checar-viagem" type="button" class="btn btn-success">
+                    Minhas viagens
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+        <div class="container" data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <section id="inicio" class="p-0">
+                <div id="carousel-viagem" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="4000" class="carousel-item active">
+                            <img src="https://all.accor.com/magazine/imagerie/bagagem-especial-cuidados-ao-despachar-da-categoria-especial-8a9f.jpg">
+                            <div class="carousel-caption">
+                                <h3 class="p-3 mb-2 bg-primary text-white">Tire suas dúvias sobre o que levar na sua bagagen de mão</h3>
+                                <p></p>
+                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                        <div data-bs-interval="4000" class="carousel-item">
+                            <img src="https://cdn.bestbuysimtravel.com/wp-content/uploads/2023/07/planejamento_de_viagem.jpg?strip=all&lossy=1&ssl=1">
+                            <div class="carousel-caption">
+                                <h3 class="p-3 mb-2 bg-primary text-white">Planeje sua viagem! Confira as dicas para elaborar seu roteiro ideal</h3>
+                                <p></p>
+                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                        <div data-bs-interval="4000" class="carousel-item">
+                            <img src="https://www.paisefilhos.com.br/media/uploads/legacy/b/9/70e29cb191498dd04539f427862d47de55e65a21.jpg">
+                            <div class="carousel-caption">
+                                <h3 class="p-3 mb-2 bg-primary text-white">Não perca nossas  ofertas para viagens nacionais</h3>
+                                <p></p>
+                                <a href="#" class="btn btn-primary">Saiba Mais</a>                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-target="#carousel-viagem" data-bs-slide="prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-target="#carousel-viagem" data-bs-slide="next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" data-bs-target="#carousel-viagem" data-bs-slide-to="0" type="button"></button>
+                        <button data-bs-target="#carousel-viagem" data-bs-slide-to="1" type="button"></button>
+                        <button data-bs-target="#carousel-viagem" data-bs-slide-to="2" type="button"></button>
+                    </div>
+            </section>
+
+            <section id="passagem">
+                <h2 class="mb-5">Passagens</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/id/973274388/pt/foto/aerial-view-of-buenos-aires-city-with-obelisk-and-9-de-julio-avenue-at-night-buenos-aires.jpg?s=1024x1024&w=is&k=20&c=_70BHg1s02_tG4-DGolcwNtlO1UehNkFOqRFovVrb9Q="/>
+                            <div class="card-body">
+                                <h4 class="card-title">Buenos Aires</h4>
+                                <p></p>
+                                <h5 class="card-subtitle">R$ 1.739,00</h5>
+                                <p>Partindo do Rio de Janeiro</p>
+                                <p>Ida e volta</p>
+                                <h6 class="card-subtitle">Taxas e impostos não inclusos</h6>
+                                <p></p>
+                                    <a href="#" id="botao-saiba-mais" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/14059766/pexels-photo-14059766.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Salvador</h4>
+                                <p></p>
+                                <h5 class="card-subtitle">R$ 735,00</h5>
+                                <p>Partindo de São Paulo</p>
+                                <p>Ida e volta</p>
+                                <h6 class="card-subtitle">Taxas e impostos não inclusos</h6>
+                                <p></p>
+                                    <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card">
+                            <img src="https://images.pexels.com/photos/3411135/pexels-photo-3411135.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Orlando</h4>
+                                <p></p>
+                                <h5 class="card-subtitle">R$ 4.236,00</h5>
+                                <p>Partindo do Rio de Janeiro</p>
+                                <p>Ida e volta</p>
+                                <h6 class="card-subtitle">Taxas e impostos não inclusos</h6>
+                                <p></p>
+                                    <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="hospedagem">
+                <h2 class="mb-5">Hospedagens</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_640.jpg"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Fortaleza</h4>
+                                <p></p>
+                                <h5 class="card-subtitle">R$ 2.815,00</h5>
+                                <p>★ ★ ★ ★ ☆</p>
+                                <p>8 noites - 1 pessoa</p>
+                                <p></p>
+                                <p>Cancelamento grátis</p>
+                                    <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/id/1051207584/pt/foto/beautiful-golden-hour-and-himalayan-ranges-seen-from-hotel-room.jpg?s=612x612&w=0&k=20&c=7LitcrEB_1ZYm0zVnZQyTR-6NzTg2ppvdc7GvEdvs6w="/>
+                            <div class="card-body">
+                                <h4 class="card-title">Petropolis</h4>
+                                <p></p>
+                                <h5 class="card-subtitle">R$ 1.388,00</h5>
+                                <p>★ ★ ★ ★ ☆</p>
+                                <p>3 noites - 1 pessoa</p>
+                                <p></p>
+                                <p>Cancelamento grátis</p>
+                                    <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card">
+                            <img src="https://cdn.pixabay.com/photo/2022/10/05/05/40/sunset-7499759_1280.jpg"/>
+                            <div class="card-body">
+                                <h4 class="card-title">Atenas</h4>
+                                <p></p>
+                                <h5 class="card-subtitle">R$ 2.461,00</h5>
+                                <p>★ ★ ★ ★ ★</p>
+                                <p>2 noites - 1 pessoa</p>
+                                <p></p>
+                                <p>Cancelamento grátis</p>
+                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="pacote">
+                <h2 class="mb-5">Pacotes</h2>
+                <nav class="nav nav-pills">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Voo + Hospedagem</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Voo + Carro</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Voo + Hospedagem + Seguros </button>
+                </nav>
+
+                    <div class="tab-content">
+                        <div id="aba1" class="tab-pane active">
+                            <div class="row">
+                                <div class="col">
+                                    <form>
+                                        <label class="form-label" for="origem">Origem:</label>
+                                        <input class="form-control" type="text"id="origem"/>
+                                        <label class="form-label" for="destino">Destino:</label>
+                                        <input class="form-control" type="text" id="destino"/>
+                                        <label class="form-label" for="data_ida">Data de ida:</label>
+                                        <input class="form-control" type="date" id="data_ida"/>
+                                        <label class="form-label" for="data_volta">Data de volta:</label>
+                                        <input class="form-control" type="date" id="data_volta"/>
+                                        <label class="form-label" for="adultos">Quantidade de adultos:</label>
+                                        <input class="form-control" type="number" id="adultos"/>
+                                        <label class="form-label" for="criancas">Quantidade de criancas (menor que 12 anos):</label>
+                                        <input class="form-control" type="number" id="criancas"/>
+                                        <div class="form-check form-switch">
+                                            <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                                            <input class="form-check-input" type="checkbox" id="aceito-termos">
+                                        </div>
+                                        <button class="btn btn-success">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="aba2" class="tab-pane">
+                            <div class="row">
+                                <div class="col">
+                                    <form>
+                                        <label class="form-label" for="origem">Origem:</label>
+                                        <input class="form-control" type="text"id="origem"/>
+                                        <label class="form-label" for="destino">Destino:</label>
+                                        <input class="form-control" type="text" id="destino"/>
+                                        <label class="form-label" for="data_ida">Data de ida:</label>
+                                        <input class="form-control" type="date" id="data_ida"/>
+                                        <label class="form-label" for="data_volta">Data de volta:</label>
+                                        <input class="form-control" type="date" id="data_volta"/>
+                                        <label class="form-label" for="adultos">Quantidade de passageiros:</label>
+                                        <input class="form-control" type="number" id="passageiros"/>
+                                        <div class="form-check form-switch">
+                                            <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                                            <input class="form-check-input" type="checkbox" id="aceito-termos">
+                                        </div>
+                                        <button class="btn btn-success">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="aba3" class="tab-pane">
+                            <div class="row">
+                                <div class="col">
+                                    <form>
+                                        <label class="form-label" for="origem">Origem:</label>
+                                        <input class="form-control" type="text"id="origem"/>
+                                        <label class="form-label" for="destino">Destino:</label>
+                                        <input class="form-control" type="text" id="destino"/>
+                                        <label class="form-label" for="data_ida">Data de ida:</label>
+                                        <input class="form-control" type="date" id="data_ida"/>
+                                        <label class="form-label" for="data_volta">Data de volta:</label>
+                                        <input class="form-control" type="date" id="data_volta"/>
+                                        <label class="form-label" for="passageiros">Quantidade de passageiros:</label>
+                                        <input class="form-control" type="number" id="passageiros"/>
+                                        <label class="form-label" for="seguro">Observações sobre o seguro:</label>
+                                        <input class="form-control" type="text"id="seguro"/>
+                                        <div class="form-check form-switch">
+                                            <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                                            <input class="form-check-input" type="checkbox" id="aceito-termos">
+                                        </div>
+                                        <button class="btn btn-success">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section id="contato">
+                <h2 class="mb-5">Fale Conosco</h2>
+                    <nav class="nav nav-pills">
+                        <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link active" type="button">Redes Sociais</button>
+                        <button data-bs-toggle="tab" data-bs-target="#aba5" class="nav-link" type="button">Entre em Contato</button>
+                    </nav>
+
+                    <div class="tab-content">
+                        <div id="aba4" class="tab-pane active">
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="social-links">
+                                        <li>
+                                            <a href="#" title="Siga-nos no Instagram">
+                                                <img src="imagem/instagram.png" alt="Instagram"/>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Visite nosso canal no Youtube">
+                                                <img src="imagem/youtube.png" alt="Youtube"/> 
+                                            </a>
+                                        </li>                                                
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="aba5" class="tab-pane">
+                            <div class="row">
+                                <div class="col">
+                                    <form>
+                                        <label class="form-label" for="nome">Nome:</label>
+                                        <input class="form-control" type="text" id="nome"/>
+                                        <label class="form-label" for="email">E-mail:</label>
+                                        <input class="form-control" type="email" id="email"/>
+                                        <label class="form-label" for="telefone">Telefone:</label>
+                                        <input class="form-control" type="tel" id="telefone"/>
+                                        <label class="form-label" for="text">Mensgaem</label>
+                                        <textarea class="form-control" placeholder=""></textarea>
+                                        <div class="form-check form-switch">
+                                        </div>
+                                        <button class="btn btn-success">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="aba3" class="tab-pane">
+                            <div class="row">
+                                <div class="col">
+                                    <form>
+                                        <label class="form-label" for="origem">Origem:</label>
+                                        <input class="form-control" type="text"id="origem"/>
+                                        <label class="form-label" for="destino">Destino:</label>
+                                        <input class="form-control" type="text" id="destino"/>
+                                        <label class="form-label" for="data_ida">Data de ida:</label>
+                                        <input class="form-control" type="date" id="data_ida"/>
+                                        <label class="form-label" for="data_volta">Data de volta:</label>
+                                        <input class="form-control" type="date" id="data_volta"/>
+                                        <label class="form-label" for="adultos">Quantidade de adultos:</label>
+                                        <input class="form-control" type="number" id="adultos"/>
+                                        <label class="form-label" for="criancas">Quantidade de criancas (menor que 12 anos):</label>
+                                        <input class="form-control" type="number" id="criancas"/>
+                                        <label class="form-label" for="seguro">Observações sobre o seguro:</label>
+                                        <input class="form-control" type="text"id="seguro"/>
+                                        <div class="form-check form-switch">
+                                            <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                                            <input class="form-check-input" type="checkbox" id="aceito-termos">
+                                        </div>
+                                        <button class="btn btn-success">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+        <footer>
+            <p>
+                &copy; Good Trip | Agência de Viagens - Todos os direitos reservados - 2024
+            </p>
+        </footer>
+        </div>
+
+
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="mensagem-alerta">
+            <header class="toast-header">
+                <strong>Minhas viagens</strong>
+            </header>
+            <div class="toast-body">
+                Você ainda não tem viagens programadas
+                <div class="mt-2 pt-2 border-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger" type="button">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const ativadorToast = document.getElementById('btn-checar-viagem')
+        const mensagem = document.getElementById('mensagem-alerta')
+        if (ativadorToast){
+            ativadorToast.addEventListener('click', function(){
+                const toast = new bootstrap.Toast(mensagem);
+                toast.show();
+            })
+        }
+    </script>
+
+</body>
+</html>
